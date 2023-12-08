@@ -1,9 +1,15 @@
-# Dev
-โปรเจค Web app
 
-# Hello Word
-ยินดีต้อนรับเข้าสู่โลกการเขียนโปรแกรม ฮ๋าๆ
-<<<<<<< HEAD
-=======
-ง่วงอะขอกาแฟ2แก้ว
->>>>>>> e027469ee2db0120adba344a15d7e74a2ec605f8
+## Features
+
+- Light/dark mode toggle
+- Live previews
+- Fullscreen mode
+- Cross platform
+
+
+# Name
+Watthana Kayowaen
+
+# Addess
+Chaingsean Chaingrai Thiland
+
