@@ -1,6 +1,9 @@
-# Dev
-โปรเจค Web app
 
-# Hello Word
-ยินดีต้อนรับเข้าสู่โลกการเขียนโปรแกรม ฮ๋าๆ
-ง่วงอะขอกาแฟ2แก้ว
+## Features
+
+- Light/dark mode toggle
+- Live previews
+- Fullscreen mode
+- Cross platform
+
+
