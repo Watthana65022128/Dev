@@ -1,0 +1,27 @@
+@font-face {
+    font-family: kanit;
+    src: url(../Dev/transfonter.org-20231203-111343/Kanit-Regular.woff);
+}
+body{
+    font-family: kanit;
+}
+.headd{
+    max-width: 100%;
+    height: 120px;
+    background-color: rgba(232, 230, 234, 0.932);
+    margin: -35px 0px;
+    
+    
+}
+.me{
+    text-align: right;
+    margin-top: -100px;
+    margin-right: 25px;
+    word-spacing: 20px;
+    
+}
+.Name{
+   padding: 50px 20px;
+   font-size: 20px;
+   
+}
