@@ -22,7 +22,7 @@ body{
 }
 
 .logo{
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,8 +79,6 @@ body{
     margin-top: 20px;
 }
 
-
-
 .hello p {
     display: flex;
     padding: 50px 50px;
@@ -117,7 +115,6 @@ body{
     margin-left: 33%;
     height: 100px;
     border-radius: 50%;
-    
 }
 
 .img-me{
@@ -127,11 +124,9 @@ body{
     height: 500px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 20px; /* ระยะห่างระหว่าง grid items */
+    grid-gap: 50px; /* ระยะห่างระหว่าง grid items */
     justify-content: space-around; /* จัดกึ่งกลางตามแนวนอน */
     align-items: center; /* จัดกึ่งกลางตามแนวตั้ง */
-    
-    
 }
 
 .img-info{
