@@ -20,13 +20,16 @@ body{
 
 .l-con{
     height: 120%;
-    width: 100%;
-    background-color: rgb(233, 223, 223);
+    background-color: gray;
+    background-image: url(https://i.pinimg.com/564x/1f/87/b2/1f87b29a2df46100a75aa86b170a21cb.jpg) ;
+    background-size: cover;
+    
 }
 
 .name {
     padding: 20px;
     font-size: 10px;
+    color: #ffffff;
 }
 
 .con-img{
@@ -45,13 +48,17 @@ body{
 
 .foot-l p{
     text-align: center;
+    color: #000000;
+    background-color: #cacaca;
+    padding: 0 20px;
+    border: 2px solid black;
     
 }
 
 .r-con{
     display: flex;
     flex-direction: column;
-    background-color:#fff8dc;
+    background-color:#fbf7eb;
     height: 120%;
     
 }
@@ -110,10 +117,16 @@ body{
 }
 
 .bar-info:hover{
-    background-color: rgb(216, 213, 213);
+    background-color: rgb(243, 237, 128);
     
 }
+
 .bar-info a  {
+    display: inline-block;
     text-decoration: none;
     color: black;
+}
+
+.bar-info a:hover{
+    color: rgb(30, 10, 209);
 }
