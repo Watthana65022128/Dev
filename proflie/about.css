@@ -101,6 +101,7 @@ body{
     border: 1px solid black;
     width: 320px;
     height: 40px;
+    border-radius: 10px;
 }
 
 .bar-info-logo{
