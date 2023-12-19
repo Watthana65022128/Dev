@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(proo.jpg);
+    font-family: kanit;
+    background-color: rgb(235, 235, 235);
+  }
+  @font-face {
+    font-family: kanit;
+    src: url(../Dev/transfonter.org-20231203-111343/Kanit-Regular.woff);
+  }
+  
+  .login-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 50px;
+    width: 300px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group label {
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  a {
+    padding-top: 10px;
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .back{
+    text-decoration: none;
+  }
+  
+  
