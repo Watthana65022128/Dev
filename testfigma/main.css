@@ -287,3 +287,56 @@ body {
         }
     }
 }
+
+.container-dowload {
+    max-width: 1240px;
+    height: 280px;
+    margin: 0 auto;
+    background: url(../testfigma/imgss/Group\ 20.png);
+}
+
+.con-footer {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.con-top{
+    text-align: center;
+    margin-top: 6rem;
+    
+    & h2 {
+        margin: 20px 0;
+    }
+
+    & p {
+        color: #2F80ED;
+    }
+}
+
+.con-center {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 5rem 0;
+
+    & p {
+        padding: 10px 0;
+    }
+
+    & ul {
+        padding-top: 10px;
+        list-style: none;
+    }
+
+    & ul li {
+        margin-top : 15px;
+    }
+}
+
+.con-bottom {
+    margin-top: 5rem;
+    height: 40px;
+    background-color: #ebebeb;
+    text-align: end;
+    padding: 10px 10rem 0;
+}
+
