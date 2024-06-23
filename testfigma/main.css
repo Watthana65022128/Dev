@@ -29,6 +29,11 @@ body {
 .head-menu {
     display: flex;
     list-style: none;
+    
+    & li:hover {
+        color: #2f80ed;
+        cursor: pointer;
+    }
 }
 
 .head-menu li {

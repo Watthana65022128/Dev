@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 50px auto;
+    max-width:800px;
+}
+
+.con-head {
+    display: flex;
+    justify-content: space-between;
+    transition: 0.4s;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(182, 182, 182);
+}
+
+.active, .con-head:hover {
+    background-color: rgb(228, 228, 228);
+    transition: 0.4s;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    padding: 10px;
+    display: none;
+
+}

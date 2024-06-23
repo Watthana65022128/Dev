@@ -21,6 +21,7 @@ body {
     align-items: center;
     justify-content: space-around;
     background-color: #ffffff;
+    position: fixed;
 }
 
 .mdp {
@@ -131,13 +132,10 @@ main {
     max-width: 1240px;
     height: 500px;
     margin: 50px auto;
+    display: flex;
 }
 .checked {
     color: orange; 
-}
-
-.lak {
-    margin-top: 3.5rem;
 }
 
 .lak p {
@@ -149,15 +147,47 @@ main {
 }
 
 .topcon {
-    margin: 1rem 0;
-    width: 60%;
+    margin: 2rem 0;
+    width: 800px;
+    height: 500px;
+    background-color: #ebebeb;
+    border-radius: 6px;
+    
 }
 
-.topcon {
-    margin: 3rem 0;
-    padding: 0 1.5rem;
+
+.overview-top  {
+    border-bottom: 1px solid #E0E0E0;
+    height: 60%;
+    padding: 2rem 3rem;
+    & p {
+        margin: 25px 0;
+    }
 }
 
-.overview-top p {
-    margin: 15px 0;
+.Top-facilities {
+    padding: 2rem 3rem;
 }
+
+.Top-facilities-info {
+    display: grid;
+    grid-template-columns: repeat(2,250px);
+    grid-template-rows: repeat(3,1fr);
+    margin-top: 10px;
+
+    & p {
+        margin: 10px 10px;
+    }
+}
+
+.twocon {
+    margin: 15px 20px;
+}
+
+.Explore-the-area {
+    & h3 {
+        margin: 20px 0;
+    }
+}
+
+
